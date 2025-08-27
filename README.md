@@ -1,6 +1,8 @@
-Lenguaje de marcado de hipertexto o también conocido como HTML, es un lenguaje estándar para crear páginas web. Utiliza etiquetas para organizar y presentar texto, imágenes, videos y otro tipo de elementos cuya estructura y contenido se define en un sitio web.
-La función principal de HTML es definir la estructura, incorporar contenido crear enlaces, proporcionar semántica permitiendo que los navegadores interpreten y muestren el contenido de forma coherente. 
+    Lenguaje de marcado de hipertexto o también conocido como HTML, es un lenguaje estándar para crear páginas web. Utiliza etiquetas para organizar y presentar texto, imágenes, videos y otro tipo de elementos cuya estructura y contenido se define en un sitio web.
+    La función principal de HTML es definir la estructura, incorporar contenido crear enlaces, proporcionar semántica permitiendo que los navegadores interpreten y muestren el contenido de forma coherente. 
+
 <Etiqueta HTML> Es un elemento clave que define la estructura y el contenido de una página web, estas se utilizan para indicar al navegador como mostar elementos como texto, imágenes, videos entre otros elementos y funcionan como marcadores que delimitan el inicio y fin de un elemento. Unas de las etiquetas más comunes o utilizadas que definen la estructura básica del documento, el contenido y la presentación visual son:
+
 <a href="http://direccion">TEXTO</a>   →  Un vínculo a una dirección web
 <b>TEXTO</b>   → El texto encerrado se mostrará en negrita
 <br>   → Un salto de línea
@@ -22,7 +24,8 @@ La función principal de HTML es definir la estructura, incorporar contenido cre
 <table></table>  →  Inserta una tabla con las líneas y columnas que se especifiquen
 <textarea>TEXTO</textarea>   → Inserta un cuadro de texto
 
-Atributo de una etiqueta HTML:  es una nombre y valor adicional que se añade a la etiqueta de apertura de un elemento para proporcionar información extra, modificar su comportamiento o apariencia, y darle funcionalidad específica estos pueden almacenar información que no es directamente visible pero que se necesitan para entender o procesar el elemento.
+    Atributo de una etiqueta HTML:  es una nombre y valor adicional que se añade a la etiqueta de apertura de un elemento para proporcionar información extra, modificar su comportamiento o apariencia, y darle funcionalidad específica estos pueden almacenar información que no es directamente visible pero que se necesitan para entender o procesar el elemento.
+
  id → Identificador único para un elemento.
 class → Define una o varias clases para aplicar estilos con CSS o manipular con JavaScript.
   style → Permite aplicar estilos CSS en línea directamente al elemento.
@@ -43,8 +46,9 @@ class → Define una o varias clases para aplicar estilos con CSS o manipular co
   lang → Define el idioma del contenido.
   data-* → Atributos personalizados para almacenar datos adicionales en un elemento.
 
-CSS es un lenguaje de estilos utilizado para proporcionar cualidades visuales y estéticas a una página web hecha en HTML.
+    CSS es un lenguaje de estilos utilizado para proporcionar cualidades visuales y estéticas a una página web hecha en HTML.
 Las tres formas principales de aplicar CSS en HTML son:
+
 1.	INLINE CSS → Dentro del mismo elemento usando el atributo style ejemplo:
 <p style="color: blue; font-size: 18px;">Texto en azul con tamaño 18px</p>
 2.	INTERNAL CSS → Dentro de la etiqueta <style>  en el <head> ejemplo:
@@ -74,7 +78,7 @@ h1 {
   text-align: center;
 }
 
-Una Propiedad en CSS es un atributo que se aplica a un elemento HTML  para definir su estilo visual, las propiedades tienen un valor específico que determina como se mostrará dicho elemento, por ejemplo.  
+    Una Propiedad en CSS es un atributo que se aplica a un elemento HTML  para definir su estilo visual, las propiedades tienen un valor específico que determina como se mostrará dicho elemento, por ejemplo.  
 Color define el color de texto, Font-size define el tamaño de la fuente y la propiedad background-color define color de fondo.
 
 Las propiedades se declaran dentro de un bloque de reglas con la siguiente estructura:
@@ -191,5 +195,3 @@ Otra opción son los atajos de teclado como
 Panel Elements permite explorar la estructura HTML de una página y también los estilos CSS aplicados a cada elemento. Desde ahí se puede editar etiquetas, clases o estilos directamente y ver los cambios reflejados al instante, lo que resulta muy útil para probar ajuste de diseño sin tener que modificar el código fuente original. 
 Panel Console funciona como una terminal dentro del navegador en el que se puede escribir y ejecutas comandos de JavaScript. Además, muestra mensajes de depuración, advertencias y errores del sitio web. Es una herramienta clave para los desarrolladores porque permite probar fragmentos de código rápidamente y encontrar fallas en el funcionamiento de una aplicación web.
 Panel Network en este se listan todos los recursos que cargan una pagina web, tales como archivos CSS, JavaScript, imágenes, videos o solicitudes de APIs. También muestran detalles como el tamaño de los archivos, el tiempo de carga y si alguna petición falló. Esta información es importante ya que ayuda a detectar cuellos de botella, optimizar la velocidad de carga y resolver problemas de conexión o rendimiento en la aplicación 
-
-
