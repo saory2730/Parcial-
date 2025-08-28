@@ -17,3 +17,5 @@ Algunas etiquetas comunes son:
     <ul>	Lista desordenada.	<ul><li>Elemento</li></ul>
     <ol>	Lista ordenada.	<ol><li>Elemento</li></ol>
     <span>	Contenedor en línea.	<span>Texto en línea</span>
+⚙️ Atributos de una Etiqueta HTML
+Los atributos son pares de nombre y valor que se añaden a la etiqueta de apertura para dar información adicional, modificar su comportamiento o apariencia.
